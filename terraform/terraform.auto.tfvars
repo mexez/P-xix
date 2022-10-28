@@ -1,6 +1,6 @@
 region = "us-east-1"
 
-vpc_cidr = "10.0.0.0/16"
+vpc_cidr = "172.16.0.0/16"
 
 enable_dns_support = "true"
 
@@ -16,24 +16,24 @@ preferred_number_of_private_subnets = 4
 
 environment = "dev"
 
-ami-web = "ami-00a45107f7c3455a5"
+ami-web = "ami-07fff985a62415128"
 
-ami-bastion = "ami-0dbc99375eba56ff4"
+ami-bastion = "ami-0c54a2f613060b9ae"
 
-ami-nginx = "ami-010bd88cc8f5997f3"
+ami-nginx = "ami-07c589885bf79baaf"
 
-ami-sonar = "ami-0f8bd95a744e074b8"
+ami-sonar = "ami-09e68c7f2624bb08c"
 
-keypair = "devops"
+keypair = "eoan"
 
 master-password = "devopspblproject"
 
-master-username = "david"
+master-username = "eoan"
 
-account_no = "696742900004"
+account_no = "594164837096"
 
 tags = {
-  Owner-Email     = "infradev-segun@darey.io"
+  Owner-Email     = "eoanitservice@gmail.com"
   Managed-By      = "Terraform"
   Billing-Account = "1234567890"
 }
